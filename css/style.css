@@ -1,0 +1,335 @@
+:root {
+    --dark: rgb(23, 17, 40);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+body {
+    /* background-color: rgb(15, 4, 38);   */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/background.png);
+}
+
+.objects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.objects .sun {
+    width: 12rem;
+    position: absolute;
+    height: 4.75em;
+    width: 4.75rem;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.objects .sun img {
+    width: 4rem;
+    height: auto;
+    animation: sun-rotation 53954ms linear infinite;
+    z-index: 2;
+}
+
+
+.objects:not(.sun) img{
+    z-index: 1;
+}
+
+.objects .mercury {
+    position: absolute;
+    height: 5.5rem;
+    width: 5.5rem;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
+
+.objects .mercury img {
+    width: 0.6rem;
+    height: auto;
+    animation: mercury-orbit 53954ms linear infinite;
+}
+
+.objects .venus {
+    position: absolute;
+    height: 7.5rem;
+    width: 7.5rem;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
+
+.objects .venus img {
+    width: 0.6rem;
+    height: auto;
+    animation: venus-orbit 53954ms linear infinite;
+}
+
+.objects .earth {
+    position: absolute;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
+
+.objects .earth img {
+    width: 0.6rem;
+    height: auto;
+    animation: earth-orbit 53954ms linear infinite;
+}
+
+.objects .mars {
+    position: absolute;
+    height: 12rem;
+    width: 12rem;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
+
+.objects .mars img {
+    width: 0.6rem;
+    height: auto;
+    animation: mars-orbit 53954ms linear infinite;
+}
+
+.objects .jupiter {
+    position: absolute;
+    height: 21rem;
+    width: 21rem;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
+
+.objects .jupiter img {
+    width: 3rem;
+    height: auto;
+    animation: jupiter-orbit 53954ms linear infinite;
+}
+
+.objects .saturn {
+    position: absolute;
+    height: 30rem;
+    width: 30rem;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
+
+.objects .saturn img {
+    width: 4.5rem;
+    height: auto;
+    animation: saturn-orbit 53954ms linear infinite;
+}
+
+.objects .uranus {
+    position: absolute;
+    height: 38rem;
+    width: 38rem;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
+
+.objects .uranus img {
+    width: 0.95rem;
+    height: auto;
+    animation: uranus-orbit 53954ms linear infinite;
+}
+
+.objects .neptune {
+    position: absolute;
+    height: 45rem;
+    width: 45rem;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
+
+.objects .neptune img {
+    width: 0.9rem;
+    height: auto;
+    animation: neptune-orbit 53954ms linear infinite;
+}
+
+.objects .belt {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 14.5rem;
+    width: 14.5rem;
+    border-radius: 100%;
+}
+
+.objects .belt img {
+    height: 18rem;
+    width: auto;
+    animation: belt-rotation 53954ms linear infinite;
+}
+
+
+
+@keyframes neptune-orbit {
+    0% {
+        transform: rotate(0deg) translate(22.5rem) rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg) translate(22.5em) rotate(360deg);
+    }
+}
+
+@keyframes uranus-orbit {
+    0% {
+        transform: rotate(0deg) translate(19rem) rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg) translate(19rem) rotate(360deg);
+    }
+}
+
+@keyframes saturn-orbit {
+    0% {
+        transform: rotate(0deg) translate(15rem) rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg) translate(15rem) rotate(360deg);
+    }
+}
+
+@keyframes jupiter-orbit {
+    0% {
+        transform: rotate(0deg) translate(10.5rem) rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg) translate(10.5rem) rotate(360deg);
+    }
+}
+
+@keyframes belt-rotation {
+    0% {
+        transform: rotate(0deg) translate(0rem) rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg) translate(0rem) rotate(360deg);
+    }
+}
+
+@keyframes mars-orbit {
+    0% {
+        transform: rotate(0deg) translate(6rem) rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg) translate(6rem) rotate(360deg);
+    }
+}
+
+@keyframes earth-orbit {
+    0% {
+        transform: rotate(0deg) translate(5rem) rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg) translate(5rem) rotate(360deg);
+    }
+}
+
+@keyframes venus-orbit {
+    0% {
+        transform: rotate(0deg) translate(3.75rem) rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg) translate(3.75rem) rotate(360deg);
+    }
+}
+
+
+@keyframes mercury-orbit {
+    0% {
+        transform: rotate(0deg) translate(2.75rem) rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg) translate(2.75rem) rotate(360deg);
+    }
+}
+
+
+@keyframes sun-rotation {
+    0% {
+        transform: rotate(0deg) translate(0rem) rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg) translate(0rem) rotate(360deg);
+    }
+}
+
+
+.info {
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-color: green;
+    flex-direction: column;
+    align-items: center;
+    min-width: 20vw;
+    min-height: 100vh;
+    text-align: center;
+    font-family: 'Monaco';
+}
+
+.info h1, h2, img, hr {
+    color: silver;
+    margin: 0.25rem;
+}
+
+.info hr {
+    width: 80%;
+}
+
+.info img {
+    height: 10rem;
+    width: auto;
+}
+
