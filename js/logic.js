@@ -9,6 +9,16 @@ document.addEventListener('DOMContentLoaded', function () {
     updateInfoBox("sun");
 });
 
+document.addEventListener('DOMContentLoaded', function () {
+    const beltImages = document.querySelectorAll('.belt img');
+    beltImages.forEach(img => {
+        img.addEventListener('click', function() {
+            window.open("https://en.wikipedia.org/wiki/Asteroid_belt", '_blank');
+        });
+    });
+});
+
+
 function updateInfoBox(planetName) {
     const planetData = data.find(planet => planet.name.toLowerCase() === planetName);
 
