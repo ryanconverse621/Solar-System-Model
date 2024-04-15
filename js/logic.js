@@ -1,7 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    console.log("Document loaded. Attaching event listeners to images.");
     const planetImages = document.querySelectorAll('.objects span img'); 
-    console.log("Found planet images:", planetImages.length);
     planetImages.forEach(img => {
         img.addEventListener('click', function() {
             const planetName = img.alt.match(/Picture of (.*)/)[1].toLowerCase();
@@ -12,18 +10,19 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 function updateInfoBox(planetName) {
-    console.log("Updating info box for:", planetName);
     const planetData = data.find(planet => planet.name.toLowerCase() === planetName);
 
     const infoBox = document.querySelector('.info');
 
     infoBox.innerHTML = `
-        <h1>${planetData.name}</h1>
+        <a href="${planetData.link}" target="_blank">${planetData.name}</a>
         <hr>
         <img src="${planetData.img}" alt="Picture of ${planetData.name}">
         <div class="facts">
             <h1>Size</h1>
             <h2>${planetData.size}</h2>
+            <h1>Distance</h1>
+            <h2>${planetData.distance}</h2>
             <h1>Orbit</h1>
             <h2>${planetData.orbit}</h2>
             <h1>Rotation</h1>

@@ -40,7 +40,7 @@ body {
 .objects .sun img {
     width: 4rem;
     height: auto;
-    animation: sun-rotation 53954ms linear infinite;
+    animation: sun-rotation 10000ms linear infinite;
     z-index: 2;
 }
 
@@ -63,7 +63,7 @@ body {
 .objects .mercury img {
     width: 0.6rem;
     height: auto;
-    animation: mercury-orbit 53954ms linear infinite;
+    animation: mercury-orbit 5000ms linear infinite;
 }
 
 .objects .venus {
@@ -80,7 +80,7 @@ body {
 .objects .venus img {
     width: 0.6rem;
     height: auto;
-    animation: venus-orbit 53954ms linear infinite;
+    animation: venus-orbit 12750ms linear infinite;
 }
 
 .objects .earth {
@@ -97,7 +97,7 @@ body {
 .objects .earth img {
     width: 0.6rem;
     height: auto;
-    animation: earth-orbit 53954ms linear infinite;
+    animation: earth-orbit 20700ms linear infinite;
 }
 
 .objects .mars {
@@ -114,7 +114,7 @@ body {
 .objects .mars img {
     width: 0.6rem;
     height: auto;
-    animation: mars-orbit 53954ms linear infinite;
+    animation: mars-orbit 39000ms linear infinite;
 }
 
 .objects .jupiter {
@@ -131,7 +131,7 @@ body {
 .objects .jupiter img {
     width: 3rem;
     height: auto;
-    animation: jupiter-orbit 53954ms linear infinite;
+    animation: jupiter-orbit 69000ms linear infinite;
 }
 
 .objects .saturn {
@@ -148,7 +148,7 @@ body {
 .objects .saturn img {
     width: 4.5rem;
     height: auto;
-    animation: saturn-orbit 53954ms linear infinite;
+    animation: saturn-orbit 90000ms linear infinite;
 }
 
 .objects .uranus {
@@ -165,7 +165,7 @@ body {
 .objects .uranus img {
     width: 0.95rem;
     height: auto;
-    animation: uranus-orbit 53954ms linear infinite;
+    animation: uranus-orbit 110000ms linear infinite;
 }
 
 .objects .neptune {
@@ -182,7 +182,7 @@ body {
 .objects .neptune img {
     width: 0.9rem;
     height: auto;
-    animation: neptune-orbit 53954ms linear infinite;
+    animation: neptune-orbit 125000ms linear infinite;
 }
 
 .objects .belt {
@@ -198,7 +198,7 @@ body {
 .objects .belt img {
     height: 18rem;
     width: auto;
-    animation: belt-rotation 53954ms linear infinite;
+    animation: belt-rotation 35000ms linear infinite;
 }
 
 
@@ -310,7 +310,7 @@ body {
     display: flex;
     justify-content: center;
     border-style: solid;
-    border-color: green;
+    border-color: silver;
     flex-direction: column;
     align-items: center;
     min-width: 20vw;
@@ -319,9 +319,17 @@ body {
     font-family: 'Monaco';
 }
 
-.info h1, h2, img, hr {
+.info a, h1, h2, img, hr {
     color: silver;
     margin: 0.25rem;
+}
+
+.info a, h1 {
+    font-size: 1.9rem;
+}
+
+.info h2 {
+    font-size: 1.2rem;
 }
 
 .info hr {

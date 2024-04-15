@@ -1,17 +1,22 @@
 const data = [ 
     {
         "name": "Sun",
+        "link": "https://en.wikipedia.org/wiki/Sun",
         "size": "1.3*10^6 km",
+        "distance": "0 km",
         "orbit": "N/A",
         "rotation": "27 days",
         "gases": "H, He",
         "gravity":"274 m/s2",
         "temperature": "5726 C",
-        "img":"./assets/sun.png"
+        "img":"./assets/sun.png",
+        "color": ""
     },
     {
         "name": "Mercury",
-        "size": "4880 km",
+        "link": "https://en.wikipedia.org/wiki/Mercury_(planet)",
+        "size": "4,880 km",
+        "distance": "65.147 Million km",
         "orbit": "88 days",
         "rotation": "56 days",
         "gases": "N/A",
@@ -21,7 +26,9 @@ const data = [
     },
     {
         "name": "Venus",
+        "link": "https://en.wikipedia.org/wiki/Venus",
         "size": "12,100 km",
+        "distance": "108.75 Million km",
         "orbit": "225 days",
         "rotation": "243 days",
         "gases": "CO2, N",
@@ -31,7 +38,9 @@ const data = [
     },
     {
         "name": "Earth",
-        "size": "12700 km",
+        "link": "https://en.wikipedia.org/wiki/Earth",
+        "size": "12,700 km",
+        "distance": "150.11 Million km",
         "orbit": "365 days",
         "rotation": "24 hours",
         "gases": "N, O, CO2",
@@ -41,7 +50,9 @@ const data = [
     },
     {
         "name": "Mars",
-        "size": "6800 km",
+        "link": "https://en.wikipedia.org/wiki/Mars",
+        "size": "6,800 km",
+        "distance": "228 Million km",
         "orbit": "687 days",
         "rotation": "24.6 hours",
         "gases": "CO2, N, Ar",
@@ -51,7 +62,9 @@ const data = [
     },
     {
         "name":"Jupiter",
+        "link": "https://en.wikipedia.org/wiki/Jupiter",
         "size":"142,984 km",
+        "distance": "778 Million km",
         "orbit":"12 years",
         "rotation":"10 hours",
         "gases":"H, He",
@@ -61,8 +74,10 @@ const data = [
     },
     {
         "name": "Saturn",
+        "link": "https://en.wikipedia.org/wiki/Saturn",
         "size": "116,464 km",
         "orbit": "29.4 years",
+        "distance": "1.451 Billion km",
         "rotation": "10.7 hours",
         "gases": "H, He, CH4, NH3",
         "gravity":"10.4 m/s2",
@@ -71,8 +86,10 @@ const data = [
     },
     {
         "name": "Uranus",
-        "size": "50724 km",
+        "link": "https://en.wikipedia.org/wiki/Uranus",
+        "size": "50,724 km",
         "orbit": "84 years",
+        "distance": "2.9304 Billion km",
         "rotation": "17 hours",
         "gases": "H, He, CH4, H2O, NH3",
         "gravity":"8.87 m/s2",
@@ -81,8 +98,10 @@ const data = [
     },
     {
         "name": "Neptune",
-        "size": "49528 km",
+        "link": "https://en.wikipedia.org/wiki/Neptune",
+        "size": "49,528 km",
         "orbit": "164 years",
+        "distance": "4.4722 Billion km",
         "rotation": "16 hours",
         "gases": "H, He, CH4",
         "gravity":"11.15 m/s2",
