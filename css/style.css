@@ -129,7 +129,7 @@ body {
 }
 
 .objects .jupiter img {
-    width: 3rem;
+    width: 2.6rem;
     height: auto;
     animation: jupiter-orbit 69000ms linear infinite;
 }
