@@ -21,7 +21,7 @@ const data = [
         "rotation": "56 days",
         "gases": "N/A",
         "gravity":"3.7 m/s2",
-        "temperature": "-173 C-420 C",
+        "temperature": "-173 C - 420 C",
         "img":"./assets/mercury.png"
     },
     {

@@ -204,11 +204,6 @@ body {
     animation: belt-rotation 35000ms linear infinite;
 }
 
-.objects span:not(.belt) img {
-    cursor: pointer; /* Changes the cursor to a pointer to indicate it's clickable */
-}
-
-
 
 
 @keyframes neptune-orbit {
@@ -324,26 +319,20 @@ body {
     min-width: 20vw;
     min-height: 100vh;
     text-align: center;
-    font-family: 'Raleway';
-    background-color: rgba(0, 0, 0, 0.3); /* Red with 50% opacity */
-
+    font-family: 'Monaco';
 }
 
 .info a, h1, h2, img, hr {
     color: silver;
-    margin: 0.3rem;
+    margin: 0.25rem;
 }
 
 .info a, h1 {
-    font-size: 4.2vh;
-    font-weight: 700;
-    text-decoration: transparent;
+    font-size: 1.9rem;
 }
 
 .info h2 {
-    font-size: 3vh;
-    font-weight: 300;
-    color: orange;
+    font-size: 1.2rem;
 }
 
 .info hr {
@@ -353,10 +342,5 @@ body {
 .info img {
     height: 10rem;
     width: auto;
-}
-
-.info a:hover {
-    text-decoration: underline;
-    text-decoration-color: orange;
 }
 
