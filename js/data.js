@@ -2,15 +2,14 @@ const data = [
     {
         "name": "Sun",
         "link": "https://en.wikipedia.org/wiki/Sun",
-        "size": "1.3*10^6 km",
+        "size": "1.3*10<sup>6</sup> km",
         "distance": "0 km",
         "orbit": "N/A",
         "rotation": "27 days",
         "gases": "H, He",
-        "gravity":"274 m/s2",
-        "temperature": "5726 C",
+        "gravity":"274",
+        "temperature": "5726&degC",
         "img":"./assets/sun.png",
-        "color": ""
     },
     {
         "name": "Mercury",
@@ -20,8 +19,8 @@ const data = [
         "orbit": "88 days",
         "rotation": "56 days",
         "gases": "N/A",
-        "gravity":"3.7 m/s2",
-        "temperature": "-173 C - 420 C",
+        "gravity":"3.7",
+        "temperature": "-173&degC - 420&degC",
         "img":"./assets/mercury.png"
     },
     {
@@ -32,8 +31,8 @@ const data = [
         "orbit": "225 days",
         "rotation": "243 days",
         "gases": "CO2, N",
-        "gravity":"8.87 m/s2",
-        "temperature": "460 C",
+        "gravity":"8.87",
+        "temperature": "460&degC",
         "img":"./assets/venus.png"
     },
     {
@@ -44,8 +43,8 @@ const data = [
         "orbit": "365 days",
         "rotation": "24 hours",
         "gases": "N, O, CO2",
-        "gravity":"9.8 m/s2",
-        "temperature": "14 C",
+        "gravity":"9.8",
+        "temperature": "14&degC",
         "img":"./assets/earth.png"
     },
     {
@@ -56,8 +55,8 @@ const data = [
         "orbit": "687 days",
         "rotation": "24.6 hours",
         "gases": "CO2, N, Ar",
-        "gravity":"3.7 m/s2",
-        "temperature": "-64 C",
+        "gravity":"3.7",
+        "temperature": "-64&degC",
         "img":"./assets/mars.png"
     },
     {
@@ -68,8 +67,8 @@ const data = [
         "orbit":"12 years",
         "rotation":"10 hours",
         "gases":"H, He",
-        "gravity":"22.9 m/s2",
-        "temperature": "-121 C",
+        "gravity":"22.9",
+        "temperature": "-121&degC",
         "img":"./assets/jupiter.png"
     },
     {
@@ -80,8 +79,8 @@ const data = [
         "distance": "1.451 Billion km",
         "rotation": "10.7 hours",
         "gases": "H, He, CH4, NH3",
-        "gravity":"10.4 m/s2",
-        "temperature": "-138 C",
+        "gravity":"10.4",
+        "temperature": "-138&degC",
         "img":"./assets/saturn.png"
     },
     {
@@ -92,8 +91,8 @@ const data = [
         "distance": "2.9304 Billion km",
         "rotation": "17 hours",
         "gases": "H, He, CH4, H2O, NH3",
-        "gravity":"8.87 m/s2",
-        "temperature": "-220 C",
+        "gravity":"8.87",
+        "temperature": "-220&degC",
         "img":"./assets/uranus.png"
     },
     {
@@ -104,8 +103,8 @@ const data = [
         "distance": "4.4722 Billion km",
         "rotation": "16 hours",
         "gases": "H, He, CH4",
-        "gravity":"11.15 m/s2",
-        "temperature": "-232 C",
+        "gravity":"11.15",
+        "temperature": "-232&degC",
         "img":"./assets/neptune.png"
     }
     

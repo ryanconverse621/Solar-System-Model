@@ -40,7 +40,7 @@ function updateInfoBox(planetName) {
             <h1>Gases</h1>
             <h2>${planetData.gases}</h2>
             <h1>Gravity</h1>
-            <h2>${planetData.gravity}</h2>
+            <h2>${planetData.gravity} m/s<sup>2</sup></></h2>
             <h1>Temperature</h1>
             <h2>${planetData.temperature}</h2>
         </div>
