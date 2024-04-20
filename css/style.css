@@ -41,7 +41,7 @@ body {
 }
 
 .objects .sun img {
-    width: 4rem;
+    width: 9.5vh;
     height: auto;
     animation: sun-rotation 10000ms linear infinite;
     z-index: 2;
@@ -64,7 +64,7 @@ body {
 }
 
 .objects .mercury img {
-    width: 0.6rem;
+    width: 1.25vh;
     height: auto;
     animation: mercury-orbit 5000ms linear infinite;
 }
@@ -81,7 +81,7 @@ body {
 }
 
 .objects .venus img {
-    width: 0.6rem;
+    width: 1.45vh;
     height: auto;
     animation: venus-orbit 12750ms linear infinite;
 }
@@ -98,7 +98,7 @@ body {
 }
 
 .objects .earth img {
-    width: 0.6rem;
+    width: 1.5vh;
     height: auto;
     animation: earth-orbit 20700ms linear infinite;
 }
@@ -115,7 +115,7 @@ body {
 }
 
 .objects .mars img {
-    width: 0.6rem;
+    width: 1.325vh;
     height: auto;
     animation: mars-orbit 39000ms linear infinite;
 }
@@ -132,7 +132,7 @@ body {
 }
 
 .objects .jupiter img {
-    width: 2.6rem;
+    width: 5vh;
     height: auto;
     animation: jupiter-orbit 69000ms linear infinite;
 }
@@ -149,7 +149,7 @@ body {
 }
 
 .objects .saturn img {
-    width: 4.5rem;
+    width: 9.5vh;
     height: auto;
     animation: saturn-orbit 90000ms linear infinite;
 }
@@ -166,7 +166,7 @@ body {
 }
 
 .objects .uranus img {
-    width: 0.95rem;
+    width: 2vh;
     height: auto;
     animation: uranus-orbit 110000ms linear infinite;
 }
@@ -183,7 +183,7 @@ body {
 }
 
 .objects .neptune img {
-    width: 0.9rem;
+    width: 1.9vh;
     height: auto;
     animation: neptune-orbit 125000ms linear infinite;
 }
@@ -193,14 +193,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 14.5rem;
-    width: 14.5rem;
+    height: 32.5vh;
+    width: 32.5vh;
     border-radius: 100%;
 }
 
 .objects .belt img {
-    height: 18rem;
-    width: auto;
+    height: 40vh;
+    width: 40vh;
     animation: belt-rotation 35000ms linear infinite;
 }
 
