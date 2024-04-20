@@ -199,8 +199,8 @@ body {
 }
 
 .objects .belt img {
-    height: 18rem;
-    width: auto;
+    height: 40vh;
+    width: 40vh;
     animation: belt-rotation 35000ms linear infinite;
 }
 
