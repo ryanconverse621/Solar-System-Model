@@ -193,8 +193,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 14.5rem;
-    width: 14.5rem;
+    height: 32.5vh;
+    width: 32.5vh;
     border-radius: 100%;
 }
 
